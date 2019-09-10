@@ -1,0 +1,111 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: salmon;
+}
+li a:hover {
+	background-color: pink;
+}
+body {
+	background-image: url("mint.jpg");
+}
+.image1{
+	position: relative;
+	top: 200px;
+	transform: rotate(90deg);
+	right: 400px;
+}
+.image2{
+	position: relative;
+	top: 200px;
+	transform: rotate(270deg);
+	left: 250px;
+}
+h1{
+	font-size: 40px;
+	position: relative;
+	right: 25px;
+	color: salmon;
+}
+h2{
+	position: relative;
+	bottom: 200px;
+	right: 25px;
+	color: salmon;
+}
+pre{
+	position: relative;
+	right: 50px;
+	bottom: 100px;
+	font-size: 18px;
+}
+.image3{
+	position: relative;
+	top: 400px;
+	left: 800px;
+}
+.image4{
+	position: relative;
+	transform: rotate(270deg);
+	top: 200px;
+	right: 650px;
+}
+.image1{
+	box-shadow: 10px 10px 5px #ccc;
+}
+.image2{
+	box-shadow: 10px 10px 5px #ccc;
+}
+.image3{
+	box-shadow: 10px 10px 5px #ccc;
+}
+.image4{
+	box-shadow: 10px 10px 5px #ccc;
+}
+p{
+	position: relative;
+	top: 100px;
+	right: 200px;
+}
+.image6{
+	position: relative;
+}
+.image6{
+	top: 200px;
+}
+.image6{
+	right: 400px;
+}
+.image5{
+	position: relative;
+}
+.image5{
+	top: 50px;
+}
+.image5{
+	right: 300px;
+}
+#bigID{
+	font-size: 30px;
+}
+div.a{
+	position: relative;
+	right: 400px;
+	bottom: 5px;
+}
+div.b{
+	position: relative;
+	right: 300px;
+	top: 60px;
+}
